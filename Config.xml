@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" data-provider-thread-count="1">
+
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="browserVersion" value="96"/>
+    <parameter name="waitTime" value="30"/>
+
+    <test name="testName">
+        <classes>
+            <class name="runners.GeneralRunner"/>
+<!--            <class name="tests.SwagLabs">-->
+<!--                <methods>-->
+<!--                    <include name="login"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
