@@ -125,5 +125,7 @@ public class BasePage {
         File f = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(f, new File("src/screenshot/" + fileName + "_" + System.currentTimeMillis() + ".png"));
     }
+
+    //cao SM
 }
 
